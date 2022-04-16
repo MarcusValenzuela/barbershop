@@ -25,22 +25,11 @@ function Footer() {
           </div>
           <small className="website-rights">Cuts By Mase © 2022</small>
           <div className="social-icons">
+            
             <Link
               onClick={(e) => {
                 e.preventDefault();
-                window.location.href = "https://squareup.com/us/en";
-              }}
-              className="social-icon-link facebook"
-              to="/"
-              target="_blank"
-              aria-label="Facebook"
-            >
-              <i className="fab fa-facebook-f" />
-            </Link>
-            <Link
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = "https://squareup.com/us/en";
+                window.location.href = "https://www.instagram.com/mason14mcclain/";
               }}
               className="social-icon-link instagram"
               to="/"
@@ -49,42 +38,9 @@ function Footer() {
             >
               <i className="fab fa-instagram" />
             </Link>
-            <Link
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = "https://squareup.com/us/en";
-              }}
-              className="social-icon-link youtube"
-              to="/"
-              target="_blank"
-              aria-label="Youtube"
-            >
-              <i className="fab fa-youtube" />
-            </Link>
-            <Link
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = "https://squareup.com/us/en";
-              }}
-              className="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <i className="fab fa-twitter" />
-            </Link>
-            <Link
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = "https://squareup.com/us/en";
-              }}
-              className="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <i className="fab fa-linkedin" />
-            </Link>
+            
+            
+            
           </div>
         </div>
       </section>

@@ -25,7 +25,7 @@ export const Button = ({
         type={type}
         onClick={(e) => {
           e.preventDefault();
-          window.location.href = "https://squareup.com/us/en";
+          window.location.href = "https://cuts-by-mase.square.site/";
         }}
       >
         {children}
