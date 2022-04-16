@@ -8,7 +8,7 @@ function CardItem(props) {
         <Link
           onClick={(e) => {
             e.preventDefault();
-            window.location.href = "https://squareup.com/us/en";
+            window.location.href = "https://cuts-by-mase.square.site/";
           }}
           className="cards__item__link"
           to={props.path}
